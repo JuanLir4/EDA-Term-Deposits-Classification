@@ -1,0 +1,44 @@
+# Term Deposits Classification
+### Este projeto tem como objetivo analisar um conjunto de dados bancários e aplicar técnicas de modelagem preditiva para prever se um cliente subscreverá um produto bancário. A análise foi realizada em um Jupyter Notebook e segue as seguintes etapas detalhadas:
+
+1. Importação e Leitura dos Dados
+Descrição: Nesta etapa, foram importadas as bibliotecas essenciais para manipulação e análise de dados. Em seguida, os dados foram lidos a partir de arquivos CSV:
+Train.csv: Conjunto de dados de treinamento.
+Test.csv: Conjunto de dados de teste.
+Objetivo: Carregar os dados para iniciar a análise e modelagem.
+2. Tratamento dos Dados
+Descrição: Esta etapa envolve a preparação dos dados para garantir que estejam limpos e prontos para a modelagem:
+
+Verificação de valores ausentes: Avaliação da presença de valores ausentes em cada coluna.
+Limpeza dos dados: Remoção ou imputação de valores ausentes, se necessário.
+Transformações: Conversão de variáveis categóricas para numéricas e normalização dos dados, se aplicável.
+Objetivo: Garantir a qualidade dos dados e prepará-los para a análise subsequente.
+
+3. Análise Exploratória de Dados (EDA)
+Descrição: Nesta fase, foi realizada uma análise exploratória para entender melhor a distribuição e as relações entre as variáveis:
+
+Visualizações: Gráficos e diagramas foram usados para identificar padrões e tendências nos dados.
+Estatísticas descritivas: Cálculo de medidas estatísticas como média, mediana, e desvio padrão para obter uma visão geral dos dados.
+Objetivo: Identificar insights iniciais e padrões que possam influenciar a modelagem.
+
+4. Modelagem Preditiva
+Descrição: Esta etapa envolve a aplicação de algoritmos de Machine Learning para prever o comportamento do cliente:
+
+Seleção de Modelos: Diferentes modelos de aprendizado de máquina, como regressão logística, árvores de decisão, ou redes neurais, podem ter sido aplicados.
+Treinamento: Os modelos foram treinados usando o conjunto de dados de treinamento.
+Validação Cruzada: Técnicas como validação cruzada foram utilizadas para avaliar a robustez dos modelos.
+Objetivo: Criar modelos preditivos capazes de prever se um cliente subscreverá um produto bancário com base nos dados fornecidos.
+
+5. Avaliação de Desempenho
+Descrição: Após a modelagem, o desempenho dos modelos foi avaliado usando o conjunto de dados de teste:
+
+Métricas de Avaliação: Métricas como AUC, precisão, recall, e F1-score foram calculadas para medir a eficácia dos modelos.
+Comparação de Modelos: Comparação entre diferentes modelos para identificar qual oferece melhor desempenho.
+Objetivo: Validar a eficácia dos modelos e escolher o mais adequado para o problema.
+
+6. Conclusão e Insights
+Descrição: Nesta última etapa, foram discutidos os resultados obtidos e os principais insights derivados da análise:
+
+Interpretação dos Resultados: Análise dos principais fatores que influenciam a decisão de subscrição dos clientes.
+Recomendações: Sugestões para possíveis melhorias nos modelos ou em futuras análises.
+Objetivo: Apresentar os resultados finais e fornecer recomendações baseadas nos dados analisados.
